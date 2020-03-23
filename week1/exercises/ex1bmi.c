@@ -24,13 +24,17 @@ int main(void) {
 
     // ----- Input ----------------
 
-    // TODO
+    printf("Input your weight (kg) >");
+    scanf_s("%f", &weight);
+
+    printf("Input your height (m) >");
+    scanf_s("%f", &height);
 
     // -------- Process -----------
 
     float bmi;
     
-    // TODO 
+    bmi = weight/(height*height);
 
     // ----- Output ----------------
 

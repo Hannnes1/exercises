@@ -4,772 +4,806 @@
 	<Project>
 		<Option title="week1"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="rebuild_cache">
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="functions">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/functions" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 functions"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="functions/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/functions" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 functions/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="random">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/random" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 random"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="random/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/random" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 random/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="c2f">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/c2f" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 c2f"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="c2f/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/c2f" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 c2f/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="operators">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/operators" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 operators"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="operators/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/operators" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 operators/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="variables">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/variables" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 variables"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="variables/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/variables" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 variables/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="nested_stmt">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/nested_stmt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 nested_stmt"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="nested_stmt/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/nested_stmt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 nested_stmt/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex4sum_avg">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex4sum_avg" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4sum_avg"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex4sum_avg/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex4sum_avg" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex4sum_avg/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex3factorial">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex3factorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex3factorial"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex3factorial/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex3factorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex3factorial/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="while_stmt">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/while_stmt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 while_stmt"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="while_stmt/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/while_stmt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 while_stmt/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex2deg_rad">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex2deg_rad" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2deg_rad"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex2deg_rad/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex2deg_rad" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex2deg_rad/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="if_stmt">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/if_stmt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 if_stmt"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="if_stmt/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/if_stmt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 if_stmt/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex5functions">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex5functions" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5functions"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex5functions/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex5functions" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex5functions/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex7practise">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex7practise" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex7practise"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex7practise/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex7practise" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex7practise/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex8nim">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex8nim" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex8nim"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex8nim/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex8nim" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex8nim/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex1bmi">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex1bmi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1bmi"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex1bmi/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex1bmi" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex1bmi/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex6fiddling">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex6fiddling" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex6fiddling"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="ex6fiddling/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/ex6fiddling" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 ex6fiddling/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="io">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/io" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/io.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 io"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 io"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="io/fast">
-				<Option output="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/io" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug"/>
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/io.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
-					<Add directory="/usr/include/x86_64-linux-gnu"/>
-					<Add directory="/usr/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 io/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/hajo/courses/hachtit/leu481/xer/OUT/week1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 io/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1bmi">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex1bmi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex1bmi"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex1bmi/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex1bmi.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex1bmi/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2deg_rad">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex2deg_rad.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex2deg_rad"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex2deg_rad/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex2deg_rad.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex2deg_rad/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex8nim">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex8nim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex8nim"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex8nim/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex8nim.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex8nim/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5functions">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex5functions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex5functions"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex5functions/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex5functions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex5functions/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3factorial">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex3factorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex3factorial"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex3factorial/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex3factorial.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex3factorial/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex7practise">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex7practise.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex7practise"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex7practise/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex7practise.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex7practise/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4sum_avg">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex4sum_avg.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex4sum_avg"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex4sum_avg/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex4sum_avg.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex4sum_avg/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex6fiddling">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex6fiddling.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex6fiddling"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ex6fiddling/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/ex6fiddling.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 ex6fiddling/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if_stmt">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/if_stmt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 if_stmt"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="if_stmt/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/if_stmt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 if_stmt/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="while_stmt">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/while_stmt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 while_stmt"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="while_stmt/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/while_stmt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 while_stmt/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nested_stmt">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/nested_stmt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 nested_stmt"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="nested_stmt/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/nested_stmt.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 nested_stmt/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/random.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 random"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="random/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/random.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 random/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="variables">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/variables.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 variables"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="variables/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/variables.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 variables/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operators">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/operators.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 operators"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="operators/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/operators.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 operators/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2f">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/c2f.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 c2f"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c2f/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/c2f.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 c2f/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functions">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/functions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 functions"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="functions/fast">
+				<Option output="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/functions.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="msvc8"/>
+				<Compiler>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\cppwinrt"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 functions/fast"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Hannes\OneDrive - Chalmers University of Technology\Programutvekling\Exercises\week1\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex1bmi.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex1bmi.c">
 			<Option target="ex1bmi"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex2deg_rad.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex2deg_rad.c">
 			<Option target="ex2deg_rad"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex3factorial.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex3factorial.c">
 			<Option target="ex3factorial"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex4sum_avg.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex4sum_avg.c">
 			<Option target="ex4sum_avg"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex5functions.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex5functions.c">
 			<Option target="ex5functions"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex6fiddling.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex6fiddling.c">
 			<Option target="ex6fiddling"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex7practise.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex7practise.c">
 			<Option target="ex7practise"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/exercises/ex8nim.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/exercises/ex8nim.c">
 			<Option target="ex8nim"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/c2f.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/c2f.c">
 			<Option target="c2f"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/functions.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/functions.c">
 			<Option target="functions"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/if_stmt.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/if_stmt.c">
 			<Option target="if_stmt"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/io.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/io.c">
 			<Option target="io"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/nested_stmt.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/nested_stmt.c">
 			<Option target="nested_stmt"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/operators.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/operators.c">
 			<Option target="operators"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/random.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/random.c">
 			<Option target="random"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/variables.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/variables.c">
 			<Option target="variables"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/samples/while_stmt.c">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/samples/while_stmt.c">
 			<Option target="while_stmt"/>
 		</Unit>
-		<Unit filename="/home/hajo/courses/hachtit/leu481/xer/OUT/week1/CMakeLists.txt">
+		<Unit filename="C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

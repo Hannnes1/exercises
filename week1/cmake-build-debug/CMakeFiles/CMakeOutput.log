@@ -21,5 +21,29 @@ Compilation of the C compiler identification source "CMakeCCompilerId.c" produce
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
 
-The C compiler identification is MSVC, found in "C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Övningar/week1/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe"
+The C compiler identification is MSVC, found in "C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_ba5d8\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_ba5d8.dir\build.make /nologo -L                  CMakeFiles\cmTC_ba5d8.dir\build
+Building C object CMakeFiles/cmTC_ba5d8.dir/testCCompiler.c.obj
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Hannes\AppData\Local\Temp\nm9D29.tmp
+testCCompiler.c
+Linking C executable cmTC_ba5d8.exe
+	"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_ba5d8.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_ba5d8.dir\objects1.rsp @C:\Users\Hannes\AppData\Local\Temp\nm9F0E.tmp
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/Users/Hannes/OneDrive - Chalmers University of Technology/Programutvekling/Exercises/week1/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):nmake /nologo cmTC_d744a\fast && 	"C:\Program Files (x86)\Microsoft Visual Studio\2017\BuildTools\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\nmake.exe" -f CMakeFiles\cmTC_d744a.dir\build.make /nologo -L                  CMakeFiles\cmTC_d744a.dir\build
+Building C object CMakeFiles/cmTC_d744a.dir/CMakeCCompilerABI.c.obj
+	C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\cl.exe @C:\Users\Hannes\AppData\Local\Temp\nmA391.tmp
+CMakeCCompilerABI.c
+Linking C executable cmTC_d744a.exe
+	"C:\Program Files\JetBrains\CLion 2019.3.5\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\cmTC_d744a.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100177~1.0\x86\mt.exe --manifests  -- C:\PROGRA~2\MICROS~2\2017\BUILDT~1\VC\Tools\MSVC\1416~1.270\bin\Hostx86\x86\link.exe /nologo @CMakeFiles\cmTC_d744a.dir\objects1.rsp @C:\Users\Hannes\AppData\Local\Temp\nmA400.tmp
+
+
 
