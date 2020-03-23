@@ -8,16 +8,20 @@
  */
 #include<stdio.h>
 #include<stdbool.h>
+#include<limits.h>
 
 int main(void) {
     int number;
-    long factorial;
+    long factorial = 1;
 
     printf("Enter an integer (less than 20) > ");
-    scanf("%d", &number);
+    scanf_s("%d", &number);
 
-    
-    // TODO. Do it once then add while (loop) around
+    int i = number;
+    while(i > 0){
+        factorial *= i;
+        i--;
+    }
     
     printf("Factorial = %ld", factorial);
     return 0;
