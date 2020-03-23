@@ -29,7 +29,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39d37394-15aa-48c0-8fdd-0010b01899f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/ex4sum_avg.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex4sum_avg.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex5functions.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex5functions.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager" selected="CMake Application.ex4sum_avg">
+  <component name="RunManager" selected="CMake Application.ex5functions">
     <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="c2f" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -186,7 +186,7 @@
       <updated>1584969160545</updated>
       <workItem from="1584969163531" duration="275000" />
       <workItem from="1584971531796" duration="189000" />
-      <workItem from="1584971914200" duration="5831000" />
+      <workItem from="1584971914200" duration="8214000" />
     </task>
     <servers />
   </component>
@@ -202,22 +202,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584969411537" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584977698234">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1584980066201">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584977698234" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584977698234">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584980066201" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1584980066201">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584977698234" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584977698234">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584980066201" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1584980066201">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584977698234" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584977698234">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584980066201" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1584980066201">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584977698234" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584980066201" />
     <state x="142" y="0" key="SettingsEditor" timestamp="1584969331749">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

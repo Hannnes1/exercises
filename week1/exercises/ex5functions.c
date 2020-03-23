@@ -47,12 +47,10 @@ int digit_sum(int number);
  */
 int main(void) {
 
-    // TODO This should print true
     EQUALS(square(4), 16);     // 4² should be 16
     EQUALS(square(-2), 4);
 
-    // TODO Uncomment one at a time, all should print true
-    /*
+
     EPS_EQUALS(avg(1.0, 1.0, 1.0), 1.0);   // Average is 1.0
     EPS_EQUALS(avg(1.5, 2.0, 4.0), 2.5);
 
@@ -76,7 +74,7 @@ int main(void) {
 
     EQUALS(digit_sum(11111), 5);
     EQUALS(digit_sum(12345), 15);
-    */
+
     return 0;
 }
 
@@ -85,7 +83,53 @@ int main(void) {
 // Below you implement the functions
 
 int square(int i) {
-    // TODO;
+    return i * i;
 }
 
-// TODO Add function definitions here
+float avg(float i, float j, float k) {
+    return (i + j + k)/3;
+}
+
+float bmi(float weight, float height){
+    return weight/(height*height);
+}
+
+float deg_to_rad(float deg){
+    return deg*(float)PI/180;
+}
+
+int absolute(int i){
+    if(i < 0){
+        return -i;
+    } else{
+        return i;
+    }
+}
+
+long factorial(int n){
+    int i = n;
+    long res = 1;
+    while(i > 0){
+        res *= i;
+        i--;
+    }
+    return res;
+
+}
+
+int pow_int(int base, int exp){
+    int res = 1;
+    for(int i = 0; i < exp; ++i){
+        res *= base;
+    }
+    return res;
+}
+
+int digit_sum(int number){
+    int sum = 0;
+    while(number > 0){
+        sum += number%10;
+        number /= 10;
+    }
+    return sum;
+}
