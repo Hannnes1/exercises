@@ -1,0 +1,167 @@
+*** Exercises Week1 ***
+
+PLEASE READ THE BELOW CAREFULLY!!!
+
+Create a directory (folder) named leu418 in some well known location (Z:\...).
+Use it to store all downloaded files (weekly exercises and labs).
+
+If you don't have a directory right now close this, create directory and
+move this to the directory.
+
+This CLion project contains:
+- EXERCISES1.txt (this file). Instructions for week1 exercises.
+- exercises/: this folder contains the exercises you will solve.
+- samples/: this folder contains example code that can provide help if you get
+  stuck with the exercises.
+- CMakeLists.txt and cmake-build-debug: you don't need to care about these.
+- External Libraries and Scratches and Consoles: you don't need to care about these.
+
+Do as many exercises as possible *BUT* you can't spend all your time here.
+Labs are mandatory and need time. Decide when to switch to lab1.
+Use leftover exercises as recap for the exam
+
+*** Exercises 1-6 will prepare for Lab 1 ***
+
+Most important keyboard shortcut: Ctrl + z   (Undo!)
+
+Exercises
+---------
+
+1.  See file ex1bmi.c. This is a program to calculate the body mass index (BMI).
+    See https://en.wikipedia.org/wiki/Body_mass_index
+
+    NOTE: In the file comment (topmost) there's a remark "Samples:". The remark list
+    useful example programs from the samples directory. If stuck inspect the sample programs,
+    run them, explore them, experiment, ...
+    Also, there are plenty of comments ... read them!
+
+    To run any program or samples:
+    - In toolbar top left (close to green hammer).
+    - Select the program you want to run (or "Build all") from drop down, click hammer.
+    - Right click in program code > Run or click green triangle to the right of the drop down.
+    - Program output will appear in a window at the bottom.
+
+    Example output from program:
+
+    Program to calculate body mass index (BMI)
+    Input your weight (kg) > 70
+    Input your height (m) > 1.70
+    Your BMI is : 24.22
+
+
+2.  See ex2deg_to_rad.c. Convert degrees to radians or reverse.
+    Examples output from program:
+
+    Select                 (first run)
+    1) For Deg to rad
+    2) For Rad to deg
+    > 1
+    Input angle in deg > 90
+    90.0000 deg = 1.5708 rad
+
+    Select                 (another run)
+    1) For Deg to rad
+    2) For Rad to deg
+    > 2
+    Input angle in rad > 3.1485
+    3.1485 rad = 180.3958 deg
+
+    NOTE: In the Menu, select Code > Reformat Code. There possibly is a keyboard
+    shortcut defined for this command (Ctrl + Alt + l).
+
+    *** Use the keyboard shortcut frequently to reformat the code. Will make
+         code easy to understand! ***
+
+    If no keyboard shortcut, select Menu: File > Settings ... > Main menu > Code >
+    Select Reformat Code and press "Ctrl" and "<" simultaneously. Will create shortcut "Ctrl <"
+
+
+3.  See ex3factorial.c. Calculate the factorial function.
+    https://en.wikipedia.org/wiki/Factorial.
+    NOTE: Value of function increases very fast. Use type long to store the result.
+
+    Example output from program:
+
+    Enter an integer (less than 20) > 3        (first run)
+    Factorial = 6
+
+    Enter an integer (less than 20) > 6        (second run)
+    Factorial = 720
+
+    Enter an integer (less than 20) > 15       (last run)
+    Factorial = 1307674368000
+
+
+4.  See ex4sum_avg.c. Implement a program to calculate the sum and average
+    of some non-negative integers. Example run.
+
+    Calculate sum and average (-1 to quit)
+    > 1
+    > 2
+    > 3
+    > -1
+    Sum = 6 Avg = 2.000000
+
+    HINT: If you can do it once, ... just surround it with a loop to do it more times!
+
+5.  See ex5function.c. Implement all functions so that the program outputs
+    true
+    true
+    true
+    true
+    true
+    ...    (for all)
+
+    Start with the square function.
+
+
+6.  See ex6fiddling.c. Here we fiddle with an int, moving digits around and more
+    Make program output true like above (except for the last two, which print values).
+    NOTE: Very heavy use of / (integer division) and % (integer remainder, modulo).
+    NOTE: Some functions may be useful for other functions! Reuse if possible!
+
+
+7.  See ex7practise.c. Implement a program for multiplication training. Don't need any
+    functions here just write a complete program in main.
+
+    Example output from program:
+
+    Multiplication practise!
+    Select table (2-9) to train (-1 to quit) > 6
+    3 * 6 = 18
+    Correct!
+    5 * 6 = 30
+    Correct!
+    7 * 6 = 44
+    Sorry, the answer was 42!
+    9 * 6 = 54
+    Correct!
+    8 * 6 = -1
+    Number of questions = 4. Number of correct = 3
+
+8.  See ex8nim.c. Implement the Nim game, see https://en.wikipedia.org/wiki/Nim
+    Try to make a functional decomposition. Any non trivial task should be handled
+    by a function. Implement the functions one at the time and test. Then use functions
+    to create one round. When one round works, surround it with a loop to run the full game.
+    Example output from program:
+
+    Welcome to till NIM
+    There's 13 coins in the pile
+    Pick coins > 3
+    Player took 3
+    There's 10 coins in the pile
+    Computer took 2
+    There's 8 coins in the pile
+    Pick coins > 0                  (force player to take correct)
+    Pick coins > 4
+    Pick coins > 3
+    Player took 3
+    There's 5 coins in the pile
+    Computer took 2
+    There's 3 coins in the pile
+    Pick coins > 2
+    Player took 2
+    There's 1 coins in the pile  (i.e. computer forced to pick last = LOOSE)
+    Game over.
+    Winner is: Human
+
