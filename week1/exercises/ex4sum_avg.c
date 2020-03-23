@@ -12,20 +12,31 @@
 
 int main(void) {
     
-    // TODO Add variables
+    int input;
+    int sum = 0;
+    double avg = 0;
+    int count = 0;
 
     printf("Calculate sum and average (-1 to quit)\n");
   
     // -- Input (and bookkeeping) ---------
     
-    // TODO 
+    while (true){
+        printf(">");
+        scanf_s("%d", &input);
+        if(input == -1){
+            break;
+        }
+        sum += input;
+        count++;
+    }
 
     // -- Process---
-    
-    // TODO 
+
+    avg = (double)sum/count;
 
     // -- Output ----
-    //printf("Sum = %d Avg = %f", sum, avg ); // TODO 
+    printf("Sum = %d Avg = %f", sum, avg );
 
     return 0;
 }
