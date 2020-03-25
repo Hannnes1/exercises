@@ -25,10 +25,10 @@ int main(void) {
     // ----- Input ----------------
 
     printf("Input your weight (kg) >");
-    scanf_s("%f", &weight);
+    scanf("%f", &weight);
 
     printf("Input your height (m) >");
-    scanf_s("%f", &height);
+    scanf("%f", &height);
 
     // -------- Process -----------
 

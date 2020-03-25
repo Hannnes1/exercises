@@ -15,7 +15,7 @@ int main(void) {
     long factorial = 1;
 
     printf("Enter an integer (less than 20) > ");
-    scanf_s("%d", &number);
+    scanf("%d", &number);
 
     int i = number;
     while(i > 0){

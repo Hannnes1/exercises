@@ -16,14 +16,14 @@ int main(void) {
 
     // ---- Input ---------
     printf("Select\n1) For Deg to rad\n2) For Rad to deg\n> ");
-    scanf_s("%d", &selection);
+    scanf("%d", &selection);
 
     if (selection == 1) {
         printf("Input angle in deg >");
-        scanf_s("%f", &input);
+        scanf("%f", &input);
     } else if (selection == 2) {
         printf("Input angle in rad >");
-        scanf_s("%f", &input);
+        scanf("%f", &input);
     } else {
         printf("ERROR: Invalid input!");
         return 1; //Stop the program if the input is invalid

@@ -23,7 +23,7 @@ int main(void) {
     
     while (true){
         printf(">");
-        scanf_s("%d", &input);
+        scanf("%d", &input);
         if(input == -1){
             break;
         }

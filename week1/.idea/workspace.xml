@@ -28,8 +28,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="39d37394-15aa-48c0-8fdd-0010b01899f3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/ex6fiddling.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex6fiddling.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeRCCompiler.cmake" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/week1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/week1.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex1bmi.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex1bmi.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex2deg_rad.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex2deg_rad.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex3factorial.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex3factorial.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex4sum_avg.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex4sum_avg.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +70,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../week1" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,99 +79,98 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
-  <component name="RunManager" selected="CMake Application.ex6fiddling">
-    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="c2f" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="CMake Application.ex1bmi">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="c2f" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="c2f" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="c2f">
+    <configuration name="c2f" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="c2f" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="c2f">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex1bmi" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex1bmi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex1bmi">
+    <configuration name="ex1bmi" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex1bmi" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex1bmi">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex2deg_rad" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex2deg_rad" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex2deg_rad">
+    <configuration name="ex2deg_rad" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex2deg_rad" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex2deg_rad">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex3factorial" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex3factorial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex3factorial">
+    <configuration name="ex3factorial" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex3factorial" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex3factorial">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex4sum_avg" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex4sum_avg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex4sum_avg">
+    <configuration name="ex4sum_avg" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex4sum_avg" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex4sum_avg">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex5functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex5functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex5functions">
+    <configuration name="ex5functions" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex5functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex5functions">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex6fiddling" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex6fiddling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex6fiddling">
+    <configuration name="ex6fiddling" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex6fiddling" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex6fiddling">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex7practise" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex7practise" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex7practise">
+    <configuration name="ex7practise" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex7practise" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex7practise">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex8nim" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex8nim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex8nim">
+    <configuration name="ex8nim" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="ex8nim" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="ex8nim">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="functions" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="functions">
+    <configuration name="functions" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="functions" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="functions">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="if_stmt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="if_stmt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="if_stmt">
+    <configuration name="if_stmt" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="if_stmt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="if_stmt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="io" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="io" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="io">
+    <configuration name="io" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="io" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="io">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="nested_stmt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="nested_stmt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="nested_stmt">
+    <configuration name="nested_stmt" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="nested_stmt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="nested_stmt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="operators" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="operators" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="operators">
+    <configuration name="operators" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="operators" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="operators">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="random" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="random" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="random">
+    <configuration name="random" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="random" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="random">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="variables" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="variables" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="variables">
+    <configuration name="variables" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="variables" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="variables">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="while_stmt" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="while_stmt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="while_stmt">
+    <configuration name="while_stmt" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week1" TARGET_NAME="while_stmt" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week1" RUN_TARGET_NAME="while_stmt">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.Unnamed" />
       <item itemvalue="CMake Application.c2f" />
       <item itemvalue="CMake Application.ex1bmi" />
       <item itemvalue="CMake Application.ex2deg_rad" />
@@ -187,6 +203,15 @@
       <workItem from="1584969163531" duration="275000" />
       <workItem from="1584971531796" duration="189000" />
       <workItem from="1584971914200" duration="11030000" />
+      <workItem from="1585124391852" duration="42000" />
+      <workItem from="1585124443664" duration="329000" />
+      <workItem from="1585124780222" duration="472000" />
+      <workItem from="1585125311087" duration="396000" />
+      <workItem from="1585125769732" duration="192000" />
+      <workItem from="1585125972235" duration="769000" />
+      <workItem from="1585130586444" duration="125000" />
+      <workItem from="1585130857333" duration="33000" />
+      <workItem from="1585130975823" duration="1287000" />
     </task>
     <servers />
   </component>
@@ -194,37 +219,65 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="62" key="#Unnamed" timestamp="1584971669964">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2462" y="98" width="635" height="552" key="#Unnamed" timestamp="1585126231547">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="361" y="62" key="#Unnamed/0.0.1280.680@0.0.1280.680" timestamp="1584971669964" />
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584969411537">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2462" y="98" width="635" height="552" key="#Unnamed/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585126231547" />
+    <state x="2352" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585131990769">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584969411537" />
-    <state width="1237" height="162" key="GridCell.Tab.0.bottom" timestamp="1584982950754">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2352" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585131990769" />
+    <state x="2596" y="242" width="424" height="483" key="FileChooserDialogImpl" timestamp="1585130888776">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2596" y="242" width="424" height="483" key="FileChooserDialogImpl/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585130888776" />
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom" timestamp="1585132008750">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584982950754" />
-    <state width="1237" height="162" key="GridCell.Tab.0.center" timestamp="1584982950754">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585132008750" />
+    <state width="1872" height="273" key="GridCell.Tab.0.center" timestamp="1585132008750">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584982950754" />
-    <state width="1237" height="162" key="GridCell.Tab.0.left" timestamp="1584982950754">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1872" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585132008750" />
+    <state width="1872" height="273" key="GridCell.Tab.0.left" timestamp="1585132008749">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584982950754" />
-    <state width="1237" height="162" key="GridCell.Tab.0.right" timestamp="1584982950754">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1872" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585132008749" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right" timestamp="1585132008750">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="1237" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584982950754" />
-    <state x="142" y="0" key="SettingsEditor" timestamp="1584969331749">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585132008750" />
+    <state width="1872" height="338" key="GridCell.Tab.1.bottom" timestamp="1585131774589">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="338" key="GridCell.Tab.1.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585131774589" />
+    <state width="1872" height="338" key="GridCell.Tab.1.center" timestamp="1585131774589">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="338" key="GridCell.Tab.1.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585131774589" />
+    <state width="1872" height="338" key="GridCell.Tab.1.left" timestamp="1585131774589">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="338" key="GridCell.Tab.1.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585131774589" />
+    <state width="1872" height="338" key="GridCell.Tab.1.right" timestamp="1585131774589">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="338" key="GridCell.Tab.1.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585131774589" />
+    <state x="2302" y="119" key="SettingsEditor" timestamp="1585131761461">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1584969331749" />
-    <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1584971538466">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2302" y="119" key="SettingsEditor/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585131761461" />
+    <state x="2424" y="260" key="com.intellij.ide.util.TipDialog" timestamp="1585124400719">
+      <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="336" y="164" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584971538466" />
+    <state x="2424" y="260" key="com.intellij.ide.util.TipDialog/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585124400719" />
   </component>
 </project>
