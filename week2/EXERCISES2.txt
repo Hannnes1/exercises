@@ -1,0 +1,100 @@
+*** Exercises Week2 ***
+
+Do as many exercises as possible *BUT* you can't spend all your time here.
+Labs are mandatory and need time. Use leftover exercises as recap for the exam
+
+*** These exercises will improve your programming skills
+  (and will help you to get approved on the exam)
+  but are not strictly necessary for the labs ***
+
+Exercises
+---------
+Remainder: To get readable code layout use Menu Code > Reformat Code or the
+keyboard shortcut.
+
+1.  See ex1quad.c. Implement a program that solves the quadratic formula
+  ax² + bx + x = 0. Use math.h functions. See comments for help. Sample runs:
+
+  Program to solve a quadratic equation: ax² + bx + c = 0     (first run)
+  Please input a > 1
+  Please input b > 2
+  Please input c > 3
+  There are two complex conjugate roots. Can't solve will give nan
+  x1 = -nan, x2 = -nan
+
+  Program to solve a quadratic equation: ax² + bx + c = 0     (second run)
+  Please input a > 1
+  Please input b > 2
+  Please input c > 1
+  There are two equal real roots x1 = -1.000000, x2 = -1.000000
+
+  Program to solve a quadratic equation: ax² + bx + c = 0     (last run)
+  Please input a > 1
+  Please input b > -2
+  Please input c > -3
+  There are two distinct real roots x1 = 3.000000, x2 = -1.000000
+
+
+2.  See ex2easter.c. Calculate the date for easter sunday using a method developed
+  by matematician C.F. Gauss. You don't need to understand the method in full.
+  See comments in file. To check the result see http://www.wheniseastersunday.com/
+  Example run of program:
+
+  Input a year (1900-2099) > 2019
+  Easter Sunday for 2019 is 21/4
+
+
+3.  See ex3series.c. Use Leibniz's, another matematician, formula to calculate the
+  value of pi. See https://en.wikipedia.org/wiki/Leibniz_formula_for_%CF%80.
+  Sample runs:
+
+  Calculate PI. How many terms? > 10
+  PI with 10 terms gives 3.041840
+
+  Calculate PI. How many terms? > 100
+  PI with 100 terms gives 3.131593
+
+  Calculate PI. How many terms? > 10000
+  PI with 10000 terms gives 3.141493
+
+
+4.  See ex4puzzlers.c. Write code (directly in main) to print the patterns below.
+  The patterns are in principle infinite. You should use: while loops, printf("X"),
+  printf(" ") and printf("\n").
+
+  X             (first pattern)
+  XX
+  XXX
+  XXXX
+  XXXXX
+  XXXXXX
+  XXXXXXX
+  ...
+
+  XXXXXXXXXX     (second pattern)
+   XXXXXXXXXX
+    XXXXXXXXXX
+     XXXXXXXXXX
+      ...
+
+
+5.  See ex5bit_set.c. This is an exercise in using bitwise operators in C.
+  Useful in upcoming courses. Uncomment until all print true.
+
+6.  See ex5day_nbr.c. Calculate the ordinal number of a day given a year and a date.
+  See https://www.epochconverter.com/daynumbers.
+  NOTE: This is an exercise in functional decomposition. Start with the top level
+  function and try to decompose into smaller functions until the problem is solved.
+  Try to sketch a solution before starting to code. Sample run:
+
+  Input the year > 2019
+  Input the month number > 2
+  Input the day number > 12
+  Ordinal number for 12/2 in 2019 is: 43
+
+  HINT: If year is leap year will affect the result. See web how to calculate leap years.
+
+7.  See ex7ptr.c. This is a theoretical exercise. Uncomment and try to explain results.
+  Write your answers and explanations directly in the code.
+
+
