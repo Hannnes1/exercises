@@ -11,13 +11,21 @@
 
 int main(void) {
 
-    // Plot a half square
-    // TODO
+    for (int i = 1; i <= 10; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf("X");
+        }
+        printf("\n");
+    }
 
     printf("\n");    // Layout
 
-    // Plot a rhombus
-    // TODO
+    for (int i = 1; i <= 10; i++) {
+        for (int j = 1; j <= i; j++) {
+            printf(" ");
+        }
+        printf("XXXXXXXXXX\n");
+    }
 
     return 0;
 
