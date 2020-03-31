@@ -39,7 +39,7 @@ int main(void) {
 
     EQUALS(byte_or(0x00, 0x01), 0x01);
 
-    /*
+
     EQUALS(byte_and(0x01, 0x01), 0x01);
 
     EQUALS(byte_intersect(0xFA, 0x0A), true);
@@ -58,7 +58,6 @@ int main(void) {
 
     EQUALS(byte_equals(0xFA, 0xFA), true);
     EQUALS(byte_equals(0xFE, 0xFA), false);
-    */
 
     return 0;
 }
@@ -67,9 +66,43 @@ int main(void) {
 
 
 byte_t byte_or(byte_t b1, byte_t b2) {
-    // TODO
+    return b1 | b2;
 }
 
-// TODO
+byte_t byte_and(byte_t b1, byte_t b2){
+    return b1 & b2;
+}
+
+bool byte_intersect(byte_t b1, byte_t b2){
+    if((b1 & b2) > 0){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+byte_t byte_set_index(byte_t byte, int index){
+    return byte | 0x01 << index;
+}
+
+bool byte_get_index(byte_t byte, int index){
+    if((byte & 0x01 << index) == (0x01 << index)){
+        return true;
+    } else{
+        return false;
+    }
+}
+
+byte_t byte_clear_index(byte_t byte, int index){
+    return byte & ~(0x01 << index);
+}
+
+bool byte_equals(byte_t b1, byte_t b2){
+    if(b1 == b2){
+        return true;
+    }else{
+        return false;
+    }
+}
 
 
