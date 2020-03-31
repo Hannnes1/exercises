@@ -41,7 +41,18 @@ int main(void) {
         If date is 26, easter is on 19 of april.
         If date is 25 and a = 16 and d = 28 then date is 18 of april.
      */
-    // TODO continue to implement here
+    if(date < 32){
+        month = 3;
+    }else{
+        month = 4;
+        if(date == 26){
+            date = 19;
+        } else if(date == 25 && a == 16 && d == 28){
+            date = 18;
+        }else{
+            date = d + e - 9;
+        }
+    }
 
     // --------- Output -----------
     printf("Easter Sunday for %d is %d/%d", year, date, month);
