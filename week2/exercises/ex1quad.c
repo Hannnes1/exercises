@@ -28,19 +28,20 @@ int main(void) {
     printf("Please input c > ");
     scanf("%lf", &c);
 
-    double discriminant;
+    double discriminant = sqrt(pow(b / (2 * a), 2) - c / a);
 
-    // TODO
+    double x1 = -b / (2 * a) + discriminant;
+    double x2 = -b / (2 * a) - discriminant;
 
-    if( discriminant > 0){
+    if (discriminant > 0) {
         printf("There are two distinct real roots ");
-    } else if( discriminant < 0 ){
+    } else if (discriminant < 0) {
         printf("There are two complex conjugate roots. Can't solve will give nan\n");
     } else {
         printf("There are two equal real roots ");
     }
 
-    //printf("x1 = %f, x2 = %f\n", x1, x2);
+    printf("x1 = %f, x2 = %f\n", x1, x2);
     return 0;
 
 }
