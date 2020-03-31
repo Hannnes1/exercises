@@ -22,7 +22,13 @@ int main(void) {
 }
 
 double calculate_pi(int n_terms) {
-    // TODO
+    int divider = 1;
+    double result = 0;
+    for (int i = 0; i < n_terms; i++) {
+        i % 2 == 0 ? (result += 1.0 / divider) : (result -= 1.0 / divider);
+        divider += 2;
+    }
+    return result * 4;
 }
 
 
