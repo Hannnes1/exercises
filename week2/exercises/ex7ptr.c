@@ -29,48 +29,48 @@ int main(void) {
     int *l;       
 
     // a)
-    //printf("%d", *i);
+    //printf("%d", *i); //i är ingen pekare. Kan inte använda *
 
     // b)
-    //printf("%d\n", sizeof(&i) == sizeof(i));
+    printf("%d\n", sizeof(&i) == sizeof(i)); //Adressens till i != i
 
     // c)
-    //&i = 0xFFFFFF;
+    //&i = 0xFFFFFF; //Kan inte ändra adressen på en icke-pekare
 
     // d)
-    //*&i = 567;
-    //printf("%d\n", i);
+    *&i = 567;
+    printf("%d\n", i);
 
     // e)
-    //k = i;
-    //printf("%d", *k);
+    k = &i;
+    printf("%d\n", *k);
 
     // f)
-    //*k = i;
-    //printf("%d", *k);
+    *k = i;
+    printf("%d\n", *k);
 
     // g)
-    //*l = &k;
-    //printf("%p", l);
+    l = k;
+    printf("%p\n", l);
 
     // h)
-    //swap(i, j);
-    //printf("%d %d", i, j);
+    //swap(i, j); //Värdena byter plats i funktionen, men inte i övriga programmet
+    //printf("%d %d\n", i, j);
 
     //i)
-    //swap2(&i, &j);
-    //printf("%d %d", i, j);
+    swap2(&i, &j);
+    printf("%d %d\n", i, j);
     return 0;
 }
 
 // ----------- Methods -----------------
 
 // Try to swap the values of a and b
-void swap(int a, int b) {
-    int tmp = a;
-    a = b;
-    b = tmp;
-}
+//void swap(int a, int b) {
+//    int tmp = a;
+//    a = b;
+//    b = tmp;
+//}
 
 // Another try ...
 void swap2(int *a, int *b) {
