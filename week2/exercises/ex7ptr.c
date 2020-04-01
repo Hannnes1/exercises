@@ -16,7 +16,7 @@
 #include<stdio.h>
 
 // Try swap values in a and b
-void swap(int a, int b);
+//void swap(int a, int b);
 
 // Try swap values in a and b using addresses
 void swap2(int *a, int *b);

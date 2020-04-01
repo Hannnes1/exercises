@@ -29,6 +29,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39d37394-15aa-48c0-8fdd-0010b01899f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../week2/exercises/ex7ptr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week2/exercises/ex7ptr.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +199,7 @@
       <workItem from="1585133303821" duration="454000" />
       <workItem from="1585138560996" duration="85000" />
       <workItem from="1585139458918" duration="566000" />
+      <workItem from="1585742045578" duration="1204000" />
     </task>
     <servers />
   </component>
@@ -269,5 +271,9 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2418" y="208" width="913" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585132776142" />
+    <state x="2531" y="128" width="697" height="783" key="find.popup" timestamp="1585742061476">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2531" y="128" width="697" height="783" key="find.popup/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1585742061476" />
   </component>
 </project>
