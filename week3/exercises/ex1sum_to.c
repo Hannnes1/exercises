@@ -16,7 +16,9 @@ int main(void) {
     scanf("%d", &n);
 
 
-    // TODO
+    for(int i = 1; i <= n; i++){
+        sum += i;
+    }
 
     printf("Sum 1 to %d = %d\n", n, sum); // .. else continue here
 
