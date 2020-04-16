@@ -10,6 +10,7 @@
 #include<stdlib.h>
 #include<memory.h>
 #include<math.h>
+#include <time.h>
 
 // Test macros
 #define EQUALS(v1, v2) printf((v1) == (v2) ? "true\n" : "false\n")
@@ -35,6 +36,8 @@ void print_arr(const int arr[], int size);
 int main(void) {
     int arr[] = {4, 1, 5, 3, 6, 3, 1, 9};
 
+    srand((unsigned int) time(NULL));
+
     // Standard way of getting size of array
     // NOTE: Will not work if send arr as parameter to functions
     // because C will convert array to address to first elem!
@@ -49,7 +52,7 @@ int main(void) {
 
     int a2[10];
     int size2 = sizeof(a2) / sizeof(a2[0]);  // Standard idiom (not really necessary)
-    distribute(a2, size2 , 0.2);
+    distribute(a2, size2, 0.2);
     int expected1[] = {1, 1, 0, 0, 0, 0, 0, 0, 0, 0}; // The expected answer, 20% one's
     ARR_EQUALS(a2, expected1);       // Are a2 and expected1 the same? If so print true.
 
@@ -74,31 +77,57 @@ int main(void) {
 // ------ Implementations -----------------
 
 int count(const int arr[], int size, int value) {
-   // TODO
+    int result = 0;
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == value) {
+            result++;
+        }
+    }
+    return result;
 }
 
 int find(const int arr[], int size, int value) {
-    // TODO
+    int result = -1;
+    for (int i = 0; i < size; i++) {
+        if (arr[i] == value) {
+            result = i;
+            break;
+        }
+    }
+    return result;
 }
 
 void distribute(int arr[], int size, double percent_one) {
-    // TODO
+    int number_of_one = (int)round(size * percent_one);
+    for (int i = 0; i < size; i++) {
+        if(i < number_of_one){
+            arr[i] = 1;
+        } else{
+            arr[i] = 0;
+        }
+    }
 }
 
 /*  Fisher- Yates algorithm
     https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
  */
 void shuffle(int arr[], int size) {
-   // TODO
+    copy(original, arr, size);
+    for (int i = 0; i < size - 1; i++) {
+        int index = rand() % (size - i) + i;
+        int num = arr[index];
+        arr[index] = arr[i];
+        arr[i] = num;
+    }
 }
 
 // ----------- Helper method -----------------
 
-void print_arr(const int arr[], int size){
+void print_arr(const int arr[], int size) {
     printf("[");
-    for( int i = 0 ; i < size-1; i++){
+    for (int i = 0; i < size - 1; i++) {
         printf("%d, ", arr[i]);
     }
-    printf("%d]\n", arr[size-1]);
+    printf("%d]\n", arr[size - 1]);
 }
 
