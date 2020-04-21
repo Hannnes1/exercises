@@ -9,20 +9,32 @@
 #include<stdio.h>
 
 #define ROWS 2   // Possibly try other value
-#define COLS 2
+#define COLS 3
 
 int main(void) {
     int matrix[ROWS][COLS];
-    int transpose[ROWS][COLS];
+    int transpose[COLS][ROWS];
 
     // --- In -------------
     printf("Program to transpose matrix\n");
+    printf("Input a %d x %d matrix\n", ROWS, COLS);
 
-    // TODO
+    for (int r = 0; r < ROWS; r++) {
+        for (int c = 0; c < COLS; c++) {
+            printf("Input %d %d >", r, c);
+            scanf("%d", &matrix[r][c]);
+        }
+
+    }
 
     // ---- Process ----------
 
-    // TODO
+    for (int r = 0; r < ROWS; r++) {
+        for (int c = 0; c < COLS; c++) {
+            transpose[c][r] = matrix[r][c];
+        }
+        printf("\n");
+    }
 
     // ------ Out ------------------
 
@@ -36,7 +48,12 @@ int main(void) {
 
     printf("Transpose is\n");
 
-    // TODO
+    for (int r = 0; r < COLS; r++) {
+        for (int c = 0; c < ROWS; c++) {
+            printf("%d ", transpose[r][c]);
+        }
+        printf("\n");
+    }
 
     return 0;
 }
