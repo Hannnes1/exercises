@@ -8,8 +8,8 @@
 
 #include<stdio.h>
 #include<stdbool.h>
-#include<math.h>
 #include<memory.h>
+#include <stdlib.h>
 
 #define EQUALS(v1, v2) printf((v1) == (v2) ? "true\n" : "false\n")
 #define ARR_EQUALS(a1, a2) printf( memcmp(a1, a2, sizeof(a1)) == 0 ? "true\n" : "false\n")
@@ -65,21 +65,50 @@ int main(void) {
 
 // Should use for-loops
 int count_gte(int n_rows, int n_cols, const int matrix[][n_cols], int limit) {
-    // TODO
+    int count = 0;
+    for (int r = 0; r < n_rows; r++) {
+        for (int c = 0; c < n_cols; c++) {
+            if (matrix[r][c] >= limit) {
+                count++;
+            }
+        }
+
+    }
+    return count;
 }
 
 bool is_valid_location(int n_rows, int n_cols, int row, int col) {
-    // TODO
+    if (row < n_rows && row >= 0 && col < n_cols && col >= 0)
+        return true;
+    else
+        return false;
 }
 
 // Should use for-loop
-void array_to_matrix( int n_rows, int n_cols, int matrix[][n_cols], const int arr[] ) {
-    // TODO
+void array_to_matrix(int n_rows, int n_cols, int matrix[][n_cols], const int arr[]) {
+    int i = 0;
+    for (int r = 0; r < n_rows; r++) {
+        for (int c = 0; c < n_cols; c++) {
+            matrix[r][c] = arr[i];
+            i++;
+        }
+
+    }
 }
 
 // Should use for-loops
 int sum_neighbours(int n_rows, int n_cols, const int matrix[][n_cols], int row, int col) {
-   // TODO
+    int sum = 0;
+    for (int r = 0; r < n_rows; r++) {
+        if (abs(r - row) <= 1) {
+            for (int c = 0; c < n_cols; c++) {
+                if (abs(c - col) <= 1 && !(row == r && col == c)) {
+                    sum += matrix[r][c];
+                }
+            }
+        }
+    }
+    return sum;
 }
 
 
