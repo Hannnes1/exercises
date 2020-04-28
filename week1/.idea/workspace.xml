@@ -2,23 +2,23 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="week1" targetName="random" />
-      <config projectName="week1" targetName="io" />
-      <config projectName="week1" targetName="c2f" />
       <config projectName="week1" targetName="nested_stmt" />
-      <config projectName="week1" targetName="ex8nim" />
+      <config projectName="week1" targetName="ex4sum_avg" />
+      <config projectName="week1" targetName="operators" />
+      <config projectName="week1" targetName="if_stmt" />
+      <config projectName="week1" targetName="ex6fiddling" />
+      <config projectName="week1" targetName="while_stmt" />
+      <config projectName="week1" targetName="ex1bmi" />
+      <config projectName="week1" targetName="ex7practise" />
+      <config projectName="week1" targetName="random" />
+      <config projectName="week1" targetName="c2f" />
+      <config projectName="week1" targetName="ex2deg_rad" />
       <config projectName="week1" targetName="ex5functions" />
       <config projectName="week1" targetName="functions" />
-      <config projectName="week1" targetName="if_stmt" />
-      <config projectName="week1" targetName="ex3factorial" />
-      <config projectName="week1" targetName="ex7practise" />
-      <config projectName="week1" targetName="operators" />
-      <config projectName="week1" targetName="ex1bmi" />
-      <config projectName="week1" targetName="ex2deg_rad" />
-      <config projectName="week1" targetName="ex4sum_avg" />
-      <config projectName="week1" targetName="ex6fiddling" />
       <config projectName="week1" targetName="variables" />
-      <config projectName="week1" targetName="while_stmt" />
+      <config projectName="week1" targetName="ex3factorial" />
+      <config projectName="week1" targetName="ex8nim" />
+      <config projectName="week1" targetName="io" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -29,7 +29,6 @@
   <component name="ChangeListManager">
     <list default="true" id="39d37394-15aa-48c0-8fdd-0010b01899f3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/exercises/ex3arr_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/exercises/ex3arr_func.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +199,8 @@
       <workItem from="1585138560996" duration="85000" />
       <workItem from="1585139458918" duration="566000" />
       <workItem from="1585742045578" duration="1204000" />
-      <workItem from="1587039628719" duration="577000" />
+      <workItem from="1587039628719" duration="848000" />
+      <workItem from="1587040487533" duration="5000" />
     </task>
     <servers />
   </component>

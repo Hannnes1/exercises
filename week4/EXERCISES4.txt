@@ -1,0 +1,51 @@
+*** Exercises Week4 ***
+
+Do as many exercises as possible *BUT* you can't spend all your time here.
+Labs are mandatory and need time. Use leftover exercises as recap for the exam
+
+*** These exercises will improve your programming skills
+   and help you pass the exam but are not strictly necessary for the labs ***
+
+A note on debugging arrays in functions
+---------------------------------------
+To be able to inspect arrays in functions during debug...
+
+1.  Start debugging, enter into function
+2.  Assume parameter to functions is arr[] and size is 10.
+   - In Debugger window, right click > New Watch
+   - Type: (int (*)[10]) arr
+   - Enter, enter
+3.  Click the triangles before the watch to inspect the elements
+4.  To remove watch, right click in window > Remove Watch
+
+
+Exercises
+---------
+These are probably a bit harder exercises.
+
+1.  See ex1count_unique.c. Count how many unique elements in sorted integer
+    array. Use for-loop(s).
+
+2.  See ex2rotate.c. Stepwise right rotation of elements in integer array using different
+    approaches. Here you should use for-loops only
+
+3.  See ex3median.c. Implement some sorting algorithms. Then calculate the median
+    for an integer array.
+    See: https://en.wikipedia.org/wiki/Bubble_sort and
+    https://en.wikipedia.org/wiki/Insertion_sort
+
+4.  See ex4remdupl.c. Remove any duplicates in sorted integer array. Array size doesn't change
+    just pad with 0.
+
+5.  See ex5common_elems.c. Find elements that are present in all rows in a matrix.
+    Try to break down the function into smaller functions that solves parts of the problem.
+    Draw a sketch like in the labs!
+
+6.  See ex6unique_rows.c. Count how many unique rows in a matrix.
+    Try to break down the function into smaller functions that solves parts of the problem.
+    Draw a sketch like in the labs!
+
+
+
+
+
