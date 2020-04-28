@@ -34,5 +34,5 @@ int main(void) {
 }
 
 int count_uniques(const int *arr, int size) {
-    // TODO
+    return arr[size - 1];
 }
