@@ -39,30 +39,59 @@ int main(void) {
     insertion_sort(arr2, SIZE(arr2));
     EQUALS(is_sorted(arr2, SIZE(arr2)), true);
     print_arr(arr2, SIZE(arr2));
-    
+
 
     // Both arrays sorted!
-    printf("Size of arr is %ld median is %f\n", SIZE(arr), median(arr, SIZE(arr)));
-    printf("Size of arr2 is %ld median is %f\n", SIZE(arr2), median(arr, SIZE(arr2)));
+    printf("Size of arr is %llu median is %f\n", SIZE(arr), median(arr, SIZE(arr)));
+    printf("Size of arr2 is %llu median is %f\n", SIZE(arr2), median(arr2, SIZE(arr2)));
 
     return 0;
 }
 
 // Assumes sorted array
 double median(const int *arr, int size) {
-  // TODO
+    if (size % 2 != 0)
+        return arr[(int) (size / 2)];
+    else {
+        return (double) (arr[(int) (size / 2 - 1)] + arr[(int) (size / 2 + 1)]) / 2;
+    }
 }
 
 void bubble_sort(int *arr, int size) {
-    // TODO
+    bool swap = true;
+    while (swap) {
+        swap = false;
+        for (int i = 1; i < size; i++) {
+            if (arr[i - 1] > arr[i]) {
+                int tmp = arr[i];
+                arr[i] = arr[i - 1];
+                arr[i - 1] = tmp;
+                swap = true;
+            }
+        }
+    }
 }
 
 void insertion_sort(int *arr, int size) {
-   // TODO
+    for (int i = 1; i < size; i++) {
+        for (int j = i; j > 0; j--) {
+            if (arr[j - 1] > arr[j]) {
+                int tmp = arr[j];
+                arr[j] = arr[j - 1];
+                arr[j - 1] = tmp;
+            }
+        }
+    }
 }
 
 bool is_sorted(const int *arr, int size) {
-   // TODO
+    bool result = true;
+    for (int i = 1; i < size; i++) {
+        if (arr[i] < arr[i - 1]) {
+            result = false;
+        }
+    }
+    return result;
 }
 
 // ----------- Helper method -----------------
