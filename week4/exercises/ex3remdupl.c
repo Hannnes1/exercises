@@ -38,7 +38,16 @@ int main(void) {
 
 
 void remove_dupl(int *dest, const int *src, int size) {
-   // TODO
+    dest[0] = src[0]; //Alltid samma eftersom sorterad
+    int n = 1;
+    for (int i = 1; i < size; i++) {
+        if (src[i - 1] != src[i]) {
+            dest[n++] = src[i];
+        }
+    }
+    while(n < size){
+        dest[n++] = 0;
+    }
 }
 
 
