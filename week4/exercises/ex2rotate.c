@@ -48,17 +48,36 @@ int main(void) {
 
 // Param arr modified no return
 void rotate(int *arr, int size, int steps) {
-   // TODO
+    int cpy[size];
+    for (int i = 0; i < size; i++) {
+        cpy[i] = arr[i];
+    }
+    for (int i = 0; i < size; i++) {
+        arr[(i + steps) % size] = cpy[i];
+    }
 }
 
 
 // Param arr modified return incoming array
 int *rotate1(int *arr, int size, int steps) {
-   // TODO
+    int cpy[size];
+    for (int i = 0; i < size; i++) {
+        cpy[i] = arr[i];
+    }
+    for (int i = 0; i < size; i++) {
+        arr[(i + steps) % size] = cpy[i];
+    }
+    return arr;
 }
 
 // Param src NOT modified
 void rotate2(int *dest, const int *src, int size, int steps) {
-   // TODO
+    int cpy[size];
+    for (int i = 0; i < size; i++) {
+        cpy[i] = src[i];
+    }
+    for (int i = 0; i < size; i++) {
+        dest[(i + steps) % size] = cpy[i];
+    }
 }
 
