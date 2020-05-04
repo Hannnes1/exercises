@@ -112,7 +112,6 @@ void distribute(int arr[], int size, double percent_one) {
     https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle
  */
 void shuffle(int arr[], int size) {
-    copy(original, arr, size);
     for (int i = 0; i < size - 1; i++) {
         int index = rand() % (size - i) + i;
         int num = arr[index];
