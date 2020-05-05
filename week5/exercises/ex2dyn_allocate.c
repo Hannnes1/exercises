@@ -19,15 +19,15 @@ int main(void) {
     printf("How many elements > ");
     scanf("%d", &n_elems);
 
-    int *ptr = NULL;  // TODO Allocate array
+    int *ptr = malloc(n_elems * sizeof(int));
 
-    for( int i = 0 ; i < n_elems; i++){
+    for (int i = 0; i < n_elems; i++) {
         printf("Input %d >  ", i);
         scanf("%d", &ptr[i]);
     }
 
     printf("Array is ");
-     for( int i = 0 ; i < n_elems; i++){
+    for (int i = 0; i < n_elems; i++) {
         printf("%d  ", ptr[i]);
     }
 
