@@ -55,15 +55,15 @@ int main() {
 
 // Use arrow operator (->) to access members of structure
 double distance(point3d_t *p1, point3d_t *p2) {
-    // TODO
-    return -1;
+    return sqrt(pow((p2->x - p1->x), 2) + pow((p2->y - p1->y), 2) + pow((p2->z - p1->z), 2));
 }
 
 // Use Herons formula
 double area(triangle3d_t *triangle) {
     double s1 = distance(&triangle->pts[0], &triangle->pts[1]);
+    double s2 = distance(&triangle->pts[1], &triangle->pts[2]);
+    double s3 = distance(&triangle->pts[2], &triangle->pts[3]);
 
-    // TODO
-
-    return -1;
+    double s = (s1 + s2 + s3) / 2; //semi-parameter
+    return sqrt(s * (s - s1) * (s - s2) * (s - s3));
 }

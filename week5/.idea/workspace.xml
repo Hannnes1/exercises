@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true" buildAllGenerated="true">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="week5" targetName="ex1pts_tri" />
-      <config projectName="week5" targetName="dyn_struct" />
-      <config projectName="week5" targetName="struct_func" />
-      <config projectName="week5" targetName="linked_list" />
-      <config projectName="week5" targetName="struct" />
-      <config projectName="week5" targetName="linked_list_func" />
-      <config projectName="week5" targetName="use_malloc" />
-      <config projectName="week5" targetName="ex4bit_module" />
-      <config projectName="week5" targetName="ptr_struct" />
-      <config projectName="week5" targetName="ex5list_module" />
-      <config projectName="week5" targetName="ex3linked_list" />
       <config projectName="week5" targetName="ex2dyn_alloc" />
+      <config projectName="week5" targetName="dyn_struct" />
+      <config projectName="week5" targetName="ex3linked_list" />
+      <config projectName="week5" targetName="linked_list_func" />
       <config projectName="week5" targetName="ex6remdupl_dyn" />
+      <config projectName="week5" targetName="use_malloc" />
+      <config projectName="week5" targetName="struct" />
+      <config projectName="week5" targetName="ex4bit_module" />
+      <config projectName="week5" targetName="linked_list" />
+      <config projectName="week5" targetName="ex5list_module" />
+      <config projectName="week5" targetName="struct_func" />
+      <config projectName="week5" targetName="ex1pts_tri" />
+      <config projectName="week5" targetName="ptr_struct" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -24,264 +24,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89cfaa9c-e60c-4718-b1b0-c58af56de7ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../week3/EXERCISES3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/EXERCISES3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/exercises/ex1sum_to.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/exercises/ex1sum_to.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/exercises/ex2sum_arr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/exercises/ex2sum_arr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/exercises/ex3arr_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/exercises/ex3arr_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/exercises/ex4matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/exercises/ex4matrix.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/exercises/ex5matrix_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/exercises/ex5matrix_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/exercises/ex6common_seq.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/exercises/ex6common_seq.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/samples/arr_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/samples/arr_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/samples/arrays.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/samples/arrays.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/samples/for_stmt.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/samples/for_stmt.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/samples/matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/samples/matrix.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week3/samples/matrix_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week3/samples/matrix_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/EXERCISES4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/EXERCISES4.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/exercises/ex1count_unique.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/exercises/ex1count_unique.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/exercises/ex2rotate.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/exercises/ex2rotate.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/exercises/ex3remdupl.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/exercises/ex3remdupl.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/exercises/ex4median.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/exercises/ex4median.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/exercises/ex5common_elems.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/exercises/ex5common_elems.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/exercises/ex6unique_rows.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/exercises/ex6unique_rows.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/samples/ptr_arr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/samples/ptr_arr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week4/samples/ptr_matrix.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week4/samples/ptr_matrix.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/ex4module/ex4bit_module.h" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex4module/ex4bit_module.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/dyn_struct.c" beforeDir="false" afterPath="$PROJECT_DIR$/samples/dyn_struct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/linked_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/samples/linked_list.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/linked_list_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/samples/linked_list_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/ptr_struct.c" beforeDir="false" afterPath="$PROJECT_DIR$/samples/ptr_struct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/struct.c" beforeDir="false" afterPath="$PROJECT_DIR$/samples/struct.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samples/use_malloc.c" beforeDir="false" afterPath="$PROJECT_DIR$/samples/use_malloc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/EXERCISES6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/EXERCISES6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/exercises/ex1word_count.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/exercises/ex1word_count.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/exercises/ex2str_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/exercises/ex2str_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/exercises/ex3robberlang.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/exercises/ex3robberlang.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/exercises/ex4crypto/ex4crypto.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/exercises/ex4crypto/ex4crypto.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/exercises/ex5paren_match.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/exercises/ex5paren_match.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/exercises/ex6lcr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/exercises/ex6lcr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/samples/ptr_string.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/samples/ptr_string.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/samples/string.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/samples/string.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/samples/string_func.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/samples/string_func.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../week6/samples/use_string_h.c" beforeDir="false" afterPath="$PROJECT_DIR$/../week6/samples/use_string_h.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week1/samples/c2f.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../week1/samples/c2f.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week2/EXERCISES2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week2/EXERCISES2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/exercises/ex6common_seq.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../week3/exercises/ex6common_seq.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/arr_func_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/arr_func_x.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/arr_libc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/arr_libc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/arrays_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/arrays_x.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/for_stmt_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/for_stmt_x.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/matrix_func_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/matrix_func_x.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/matrix_x.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/matrix_x.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/ptr_aritm.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/ptr_aritm.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/swap.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/swap.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week3/xlect/tmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek3/xlect/tmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week4/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week4/xlect/ptr_arr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek4/xlect/ptr_arr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week4/xlect/tmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek4/xlect/tmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week5/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/macros.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/macros.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/macros.i" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/macros.i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/modules/io.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/modules/io.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/modules/io.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/modules/io.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/modules/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/modules/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/modules/proc.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/modules/proc.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/modules/proc.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/modules/proc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/tmp.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/tmp.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week5/xlect/trash_stack.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../lect/lectweek5/xlect/trash_stack.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week6/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week6/EXERCISES6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/EXERCISES6.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../week6/exercises/ex6lcr.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../week6/exercises/ex6lcr.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../old/oo2/hw2.src" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../old/oo2/hw2.src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex1pts_tri.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex1pts_tri.c" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1056424958">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="3" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.opened" value="3" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="c" value="3" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="ObjectiveC" value="3" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="txt" value="39" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="CMakeLists.txt" value="1" />
-          <entry key="PLAIN_TEXT" value="38" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="-433946431">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="c" value="137" />
-          <entry key="h" value="7" />
-          <entry key="txt" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="ObjectiveC" value="144" />
-          <entry key="PLAIN_TEXT" value="9" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="c" value="10" />
-          <entry key="h" value="1" />
-          <entry key="txt" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="ObjectiveC" value="11" />
-          <entry key="PLAIN_TEXT" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EXERCISES5.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/ex6remdupl_dyn.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/ex1pts_tri.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/ex3linked_list.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/ex2dyn_allocate.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/exercises/ex5module/ex5list_module.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/ex5module/ex5list_module.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/exercises/ex5module/ex5main.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/exercises/ex1pts_tri.c" />
-        <option value="$PROJECT_DIR$/exercises/ex2dyn_allocate.c" />
-        <option value="$PROJECT_DIR$/exercises/ex3linked_list.c" />
-        <option value="$PROJECT_DIR$/exercises/ex6remdupl_dyn.c" />
-        <option value="$PROJECT_DIR$/exercises/ex4module/ex4bit_module.c" />
-        <option value="$PROJECT_DIR$/exercises/ex5module/ex5main.c" />
-        <option value="$PROJECT_DIR$/exercises/ex5module/ex5list_module.h" />
-        <option value="$PROJECT_DIR$/EXERCISES5.txt" />
-        <option value="$PROJECT_DIR$/exercises/ex5module/ex5list_module.c" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="5" />
@@ -289,133 +46,104 @@
     <option name="width" value="1109" />
     <option name="height" value="986" />
   </component>
+  <component name="ProjectId" id="1bUCBXygwt1QRqwD94uJDyWl5Gu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="week5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="week5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="week5" type="462c0819:PsiDirectoryNode" />
-              <item name="samples" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../week6" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.dyn_struct">
-    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="CMake Application.ex1pts_tri">
+    <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dyn_struct" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="dyn_struct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="dyn_struct">
+    <configuration name="dyn_struct" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="dyn_struct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="dyn_struct">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex1pts_tri" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex1pts_tri" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex1pts_tri">
+    <configuration name="ex1pts_tri" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex1pts_tri" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex1pts_tri">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex2dyn_alloc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex2dyn_alloc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex2dyn_alloc">
+    <configuration name="ex2dyn_alloc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex2dyn_alloc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex2dyn_alloc">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex3linked_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex3linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex3linked_list">
+    <configuration name="ex3linked_list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex3linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex3linked_list">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex4bit_module" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex4bit_module" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex4bit_module">
+    <configuration name="ex4bit_module" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex4bit_module" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex4bit_module">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex5list_module" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex5list_module" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex5list_module">
+    <configuration name="ex5list_module" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex5list_module" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex5list_module">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ex6remdupl_dyn" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex6remdupl_dyn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex6remdupl_dyn">
+    <configuration name="ex6remdupl_dyn" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ex6remdupl_dyn" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ex6remdupl_dyn">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_list" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="linked_list">
+    <configuration name="linked_list" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="linked_list" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="linked_list">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="linked_list_func" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="linked_list_func" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="linked_list_func">
+    <configuration name="linked_list_func" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="linked_list_func" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="linked_list_func">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ptr_struct" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ptr_struct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ptr_struct">
+    <configuration name="ptr_struct" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="ptr_struct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="ptr_struct">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="struct" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="struct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="struct">
+    <configuration name="struct" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="struct" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="struct">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="struct_func" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="struct_func" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="struct_func">
+    <configuration name="struct_func" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="struct_func" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="struct_func">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="use_malloc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="use_malloc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="use_malloc">
+    <configuration name="use_malloc" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="week5" TARGET_NAME="use_malloc" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="week5" RUN_TARGET_NAME="use_malloc">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.dyn_struct" />
-      <item itemvalue="Application.ex1pts_tri" />
-      <item itemvalue="Application.ex2dyn_alloc" />
-      <item itemvalue="Application.ex3linked_list" />
-      <item itemvalue="Application.ex4bit_module" />
-      <item itemvalue="Application.ex5list_module" />
-      <item itemvalue="Application.ex6remdupl_dyn" />
-      <item itemvalue="Application.linked_list" />
-      <item itemvalue="Application.linked_list_func" />
-      <item itemvalue="Application.ptr_struct" />
-      <item itemvalue="Application.struct" />
-      <item itemvalue="Application.struct_func" />
-      <item itemvalue="Application.use_malloc" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.dyn_struct" />
+      <item itemvalue="CMake Application.ex1pts_tri" />
+      <item itemvalue="CMake Application.ex2dyn_alloc" />
+      <item itemvalue="CMake Application.ex3linked_list" />
+      <item itemvalue="CMake Application.ex4bit_module" />
+      <item itemvalue="CMake Application.ex5list_module" />
+      <item itemvalue="CMake Application.ex6remdupl_dyn" />
+      <item itemvalue="CMake Application.linked_list" />
+      <item itemvalue="CMake Application.linked_list_func" />
+      <item itemvalue="CMake Application.ptr_struct" />
+      <item itemvalue="CMake Application.struct" />
+      <item itemvalue="CMake Application.struct_func" />
+      <item itemvalue="CMake Application.use_malloc" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -432,131 +160,39 @@
       <workItem from="1583391259191" duration="57000" />
       <workItem from="1583392232297" duration="248000" />
       <workItem from="1583393807670" duration="644000" />
+      <workItem from="1588677153733" duration="1486000" />
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1058000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="5" y="16" width="1109" height="986" extended-state="0" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26390198" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="CMake" order="11" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/samples/struct.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/samples/use_malloc.c">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex4module/ex4bit_module.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex5module/ex5main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EXERCISES5.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
-          <caret line="58" column="4" selection-start-line="58" selection-start-column="4" selection-end-line="58" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex6remdupl_dyn.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="67" column="15" selection-start-line="67" selection-start-column="15" selection-end-line="67" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex3linked_list.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="158" lean-forward="true" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex2dyn_allocate.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex1pts_tri.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="67" column="14" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex5module/ex5list_module.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exercises/ex5module/ex5list_module.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom" timestamp="1588678629485">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588678629485" />
+    <state width="1872" height="273" key="GridCell.Tab.0.center" timestamp="1588678629485">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588678629485" />
+    <state width="1872" height="273" key="GridCell.Tab.0.left" timestamp="1588678629485">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588678629485" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right" timestamp="1588678629485">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1872" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588678629485" />
+    <state x="2369" y="155" key="SettingsEditor" timestamp="1588677208669">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2369" y="155" key="SettingsEditor/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588677208669" />
   </component>
 </project>
