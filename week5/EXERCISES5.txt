@@ -1,0 +1,65 @@
+*** Exercises Week5 ***
+
+Do as many exercises as possible *BUT* you can't spend all your time here.
+Labs are mandatory and need time. Use leftover exercises as recap for the exam
+
+*** Exercises 1-3 will prepare for Lab 3 ***
+
+Exercises
+---------
+
+1.  See ex1ptr_tri. We will work with points and triangles in 3D. Both are
+    represented as structures, see code. Implement functions to calculate the
+    distance between two points and the area of a triangle. For the area you should
+    use Heron's formula, see https://en.wikipedia.org/wiki/Heron%27s_formula
+    Make all tests pass.
+
+    NOTE: Structures always pass by address to functions (i.e. a pointer to the structure).
+
+2.  See ex2dyn_allocate. Implement a program that dynamically allocates an array (using malloc).
+    Example:
+
+    How many elements > 3        (first run)
+    Input 0 >  1
+    Input 1 >  2
+    Input 2 >  3
+    Array is 1  2  3
+
+    How many elements > 5        (second run)
+    Input 0 >  7
+    Input 1 >  2
+    Input 2 >  4
+    Input 3 >  5
+    Input 4 >  1
+    Array is 7  2  4  5  1
+
+3.  See ex3linked_list.c. A linked list is a chain of structures linked together
+    using pointers. The list is dynamic data structure, content/length may vary.
+    Normal operations are: create a list (empty chain), add elements, remove elements,
+    find elements, etc. See code for explanations and tests.
+    Make all tests pass.
+
+    NOTE: You should use the arrow operator (->).
+
+4.  See ex4module. This is a rework of the bit set week2 exercise. The task is
+    to restructure the code to get a standard type C-module with a header
+    and a source file. The module is used in main (tested only). The header file is
+    already implemented.
+
+    Steps
+    1.  Copy all definitions to the .c-file.
+    2.  Include h-file in .c-file (use "..."  not <...>)
+    3.  Make tests in main pass.
+
+
+5.  See ex5module. This is a rework of exercise 3. Create a C-module out of
+    the single linked_list file like in exercise 3.
+
+6.  See ex6_rempdupl_dyn.c. This is a rework of week4/exercise 3 (remove duplicates)
+    Here we return a new dynamically allocated array
+    with size same as the number of elements (no padding with zeros here)!
+
+
+
+
+
