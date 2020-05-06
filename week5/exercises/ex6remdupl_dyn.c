@@ -64,6 +64,20 @@ int main(void) {
  *  values from tmp to allocated. Return allocated array with correct size.
  */
 int *remove_dupl(const int *arr, int size) {
-    // TODO
-    return NULL;
+    int tmp[size];
+    int new_size = 1;
+    tmp[0] = arr[0]; //Alltid samma eftersom sorterad
+    int n = 1;
+    for (int i = 1; i < size; i++) {
+        if (arr[i - 1] != arr[i]) {
+            tmp[n++] = arr[i];
+            new_size++;
+        }
+    }
+
+    int *res = malloc(new_size * sizeof(int));
+    for (int i = 0; i < new_size; i++) {
+        res[i] = tmp[i];
+    }
+    return res;
 }
