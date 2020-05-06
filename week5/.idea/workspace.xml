@@ -2,18 +2,18 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="week5" targetName="ex1pts_tri" />
-      <config projectName="week5" targetName="dyn_struct" />
-      <config projectName="week5" targetName="struct_func" />
-      <config projectName="week5" targetName="use_malloc" />
-      <config projectName="week5" targetName="linked_list_func" />
-      <config projectName="week5" targetName="struct" />
-      <config projectName="week5" targetName="ex6remdupl_dyn" />
-      <config projectName="week5" targetName="ex4bit_module" />
       <config projectName="week5" targetName="ptr_struct" />
-      <config projectName="week5" targetName="linked_list" />
-      <config projectName="week5" targetName="ex2dyn_alloc" />
+      <config projectName="week5" targetName="linked_list_func" />
       <config projectName="week5" targetName="ex3linked_list" />
+      <config projectName="week5" targetName="ex6remdupl_dyn" />
+      <config projectName="week5" targetName="ex1pts_tri" />
+      <config projectName="week5" targetName="ex4bit_module" />
+      <config projectName="week5" targetName="use_malloc" />
+      <config projectName="week5" targetName="struct_func" />
+      <config projectName="week5" targetName="linked_list" />
+      <config projectName="week5" targetName="dyn_struct" />
+      <config projectName="week5" targetName="ex2dyn_alloc" />
+      <config projectName="week5" targetName="struct" />
       <config projectName="week5" targetName="ex5list_module" />
     </generated>
   </component>
@@ -23,7 +23,11 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89cfaa9c-e60c-4718-b1b0-c58af56de7ac" name="Default Changelist" comment="" />
+    <list default="true" id="89cfaa9c-e60c-4718-b1b0-c58af56de7ac" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.h" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex5module/ex5main.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex5module/ex5main.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,12 +39,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="y" value="16" />
-    <option name="width" value="1109" />
-    <option name="height" value="986" />
   </component>
   <component name="ProjectId" id="1bUCBXygwt1QRqwD94uJDyWl5Gu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,7 +58,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="CMake Application.ex6remdupl_dyn">
+  <component name="RunManager" selected="CMake Application.ex4bit_module">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -164,6 +162,7 @@
       <workItem from="1583393807670" duration="644000" />
       <workItem from="1588677153733" duration="2246000" />
       <workItem from="1588762387527" duration="2856000" />
+      <workItem from="1588766554208" duration="165000" />
     </task>
     <servers />
   </component>
@@ -181,22 +180,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="278" width="424" height="483" key="FileChooserDialogImpl/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588763892275" />
-    <state width="1872" height="338" key="GridCell.Tab.0.bottom" timestamp="1588765243141">
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom" timestamp="1588766606101">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="338" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588765243141" />
-    <state width="1872" height="338" key="GridCell.Tab.0.center" timestamp="1588765243141">
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606101" />
+    <state width="1872" height="273" key="GridCell.Tab.0.center" timestamp="1588766606101">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="338" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588765243141" />
-    <state width="1872" height="338" key="GridCell.Tab.0.left" timestamp="1588765243141">
+    <state width="1872" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606101" />
+    <state width="1872" height="273" key="GridCell.Tab.0.left" timestamp="1588766606100">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="338" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588765243141" />
-    <state width="1872" height="338" key="GridCell.Tab.0.right" timestamp="1588765243141">
+    <state width="1872" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606100" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right" timestamp="1588766606101">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="338" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588765243141" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606101" />
     <state width="1872" height="338" key="GridCell.Tab.1.bottom" timestamp="1588765243141">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

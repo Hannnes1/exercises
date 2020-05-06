@@ -10,8 +10,6 @@
 #define EQUALS(v1, v2) printf( (v1) == (v2) ? "true\n" : "false\n")
 
 void main() {
-    // TODO Uncomment and run when module implemented.
-    /*
     list_t *list = list_new();
     EQUALS(list->head, NULL);
     EQUALS(list->last, NULL);
@@ -50,8 +48,6 @@ void main() {
     EQUALS(list_contains(list, 2), true);
     EQUALS(list_contains(list, 3), false);
     EQUALS(list_contains(list, 8), true);
-     */
-
 }
 
 
