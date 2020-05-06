@@ -137,8 +137,12 @@ void list_append(list_t *list, int value) {
 
 // No error check for index!
 int list_get(list_t *list, int index) {
-    // TODO
-    return -1;
+    node_t *pos = list->last;
+    //Traverse until the correct index is reached
+    for (int i = list->length - 1; i > index; i--) {
+        pos = pos->prev;
+    }
+    return pos->value;
 }
 
 // Shifting values (not nodes)
@@ -152,9 +156,12 @@ void list_shift(list_t *list, int value) {
 }
 
 bool list_contains(list_t *list, int value) {
-    // TODO
+    node_t *pos = list->last;
+    while (pos != NULL) {
+        if (pos->value == value) {
+            return true;
+        }
+        pos = pos->prev;
+    }
     return false;
 }
-
-
-

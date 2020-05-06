@@ -2,19 +2,19 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="week5" targetName="ex2dyn_alloc" />
-      <config projectName="week5" targetName="dyn_struct" />
-      <config projectName="week5" targetName="ex3linked_list" />
-      <config projectName="week5" targetName="linked_list_func" />
-      <config projectName="week5" targetName="ex6remdupl_dyn" />
-      <config projectName="week5" targetName="use_malloc" />
-      <config projectName="week5" targetName="struct" />
-      <config projectName="week5" targetName="ex4bit_module" />
-      <config projectName="week5" targetName="linked_list" />
-      <config projectName="week5" targetName="ex5list_module" />
-      <config projectName="week5" targetName="struct_func" />
       <config projectName="week5" targetName="ex1pts_tri" />
+      <config projectName="week5" targetName="dyn_struct" />
+      <config projectName="week5" targetName="struct_func" />
+      <config projectName="week5" targetName="use_malloc" />
+      <config projectName="week5" targetName="linked_list_func" />
+      <config projectName="week5" targetName="struct" />
+      <config projectName="week5" targetName="ex6remdupl_dyn" />
+      <config projectName="week5" targetName="ex4bit_module" />
       <config projectName="week5" targetName="ptr_struct" />
+      <config projectName="week5" targetName="linked_list" />
+      <config projectName="week5" targetName="ex2dyn_alloc" />
+      <config projectName="week5" targetName="ex3linked_list" />
+      <config projectName="week5" targetName="ex5list_module" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -25,7 +25,7 @@
   <component name="ChangeListManager">
     <list default="true" id="89cfaa9c-e60c-4718-b1b0-c58af56de7ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/ex2dyn_allocate.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex2dyn_allocate.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercises/ex3linked_list.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex3linked_list.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="CMake Application.ex2dyn_alloc">
+  <component name="RunManager" selected="CMake Application.ex3linked_list">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -165,7 +165,8 @@
       <workItem from="1583391259191" duration="57000" />
       <workItem from="1583392232297" duration="248000" />
       <workItem from="1583393807670" duration="644000" />
-      <workItem from="1588677153733" duration="2021000" />
+      <workItem from="1588677153733" duration="2246000" />
+      <workItem from="1588762387527" duration="1319000" />
     </task>
     <servers />
   </component>
@@ -179,22 +180,22 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1872" height="273" key="GridCell.Tab.0.bottom" timestamp="1588679164249">
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom" timestamp="1588763655884">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588679164249" />
-    <state width="1872" height="273" key="GridCell.Tab.0.center" timestamp="1588679164249">
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588763655884" />
+    <state width="1872" height="273" key="GridCell.Tab.0.center" timestamp="1588763655884">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588679164249" />
-    <state width="1872" height="273" key="GridCell.Tab.0.left" timestamp="1588679164249">
+    <state width="1872" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588763655884" />
+    <state width="1872" height="273" key="GridCell.Tab.0.left" timestamp="1588763655883">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588679164249" />
-    <state width="1872" height="273" key="GridCell.Tab.0.right" timestamp="1588679164249">
+    <state width="1872" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588763655883" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right" timestamp="1588763655884">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588679164249" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588763655884" />
     <state x="2369" y="155" key="SettingsEditor" timestamp="1588677208669">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
