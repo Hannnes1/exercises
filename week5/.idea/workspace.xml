@@ -23,11 +23,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89cfaa9c-e60c-4718-b1b0-c58af56de7ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.h" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex5module/ex5list_module.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercises/ex5module/ex5main.c" beforeDir="false" afterPath="$PROJECT_DIR$/exercises/ex5module/ex5main.c" afterDir="false" />
-    </list>
+    <list default="true" id="89cfaa9c-e60c-4718-b1b0-c58af56de7ac" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +54,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="CMake Application.ex4bit_module">
+  <component name="RunManager" selected="CMake Application.ex5list_module">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -162,7 +158,7 @@
       <workItem from="1583393807670" duration="644000" />
       <workItem from="1588677153733" duration="2246000" />
       <workItem from="1588762387527" duration="2856000" />
-      <workItem from="1588766554208" duration="165000" />
+      <workItem from="1588766554208" duration="224000" />
     </task>
     <servers />
   </component>
@@ -180,22 +176,22 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2663" y="278" width="424" height="483" key="FileChooserDialogImpl/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588763892275" />
-    <state width="1872" height="273" key="GridCell.Tab.0.bottom" timestamp="1588766606101">
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom" timestamp="1588766777607">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606101" />
-    <state width="1872" height="273" key="GridCell.Tab.0.center" timestamp="1588766606101">
+    <state width="1872" height="273" key="GridCell.Tab.0.bottom/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766777607" />
+    <state width="1872" height="273" key="GridCell.Tab.0.center" timestamp="1588766777607">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606101" />
-    <state width="1872" height="273" key="GridCell.Tab.0.left" timestamp="1588766606100">
+    <state width="1872" height="273" key="GridCell.Tab.0.center/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766777607" />
+    <state width="1872" height="273" key="GridCell.Tab.0.left" timestamp="1588766777607">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606100" />
-    <state width="1872" height="273" key="GridCell.Tab.0.right" timestamp="1588766606101">
+    <state width="1872" height="273" key="GridCell.Tab.0.left/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766777607" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right" timestamp="1588766777607">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state width="1872" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766606101" />
+    <state width="1872" height="273" key="GridCell.Tab.0.right/1920.0.1920.1080/3840.0.1920.1080/0.0.1920.1040@1920.0.1920.1080" timestamp="1588766777607" />
     <state width="1872" height="338" key="GridCell.Tab.1.bottom" timestamp="1588765243141">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
