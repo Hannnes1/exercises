@@ -67,12 +67,37 @@ int main() {
 
 // Version with dest allocated by callee
 void to_robber(char *dest, const char *src) {
-    // TODO
+    int new_i = 0;
+    int i = 0;
+    while (src[i] != 0) {
+        dest[new_i++] = src[i++];
+        if (!strchr(VOWELS, src[i - 1]) && !strchr(SEPARATOR, src[i - 1]) && !strchr(SPACE, src[i - 1])) {
+            dest[new_i++] = 'o';
+            dest[new_i++] = src[i - 1];
+        }
+    }
 }
 
 // Function allocates dynamically
 char *to_robber2(const char *src) {
-    // TODO
-    return NULL;
+    int consonants = 0;
+    for (int i = 0; src[i] != 0; i++) {
+        if (!strchr(VOWELS, src[i - 1]) && !strchr(SEPARATOR, src[i - 1]) && !strchr(SPACE, src[i - 1])) {
+            consonants++;
+        }
+    }
+
+    char *str = malloc(sizeof(char) * strlen(src) + consonants * 2);
+
+    int new_i = 0;
+    int i = 0;
+    while (src[i] != 0) {
+        str[new_i++] = src[i++];
+        if (!strchr(VOWELS, src[i - 1]) && !strchr(SEPARATOR, src[i - 1]) && !strchr(SPACE, src[i - 1])) {
+            str[new_i++] = 'o';
+            str[new_i++] = src[i - 1];
+        }
+    }
+    return str;
 }
 
