@@ -55,21 +55,45 @@ int main(void) {
 // -------- Function definitions ----------------
 
 int count(const char *str, char ch) {
-   // TODO
-    return -1;
+    int count = 0;
+    for (int i = 0; str[i] != 0; i++) {
+        if (str[i] == ch) {
+            count++;
+        }
+    }
+    return count;
 }
 
 
 char *to_lower(char *str) {
-     // TODO
-    return -1;
+    for (int i = 0; str[i] != 0; i++) {
+        if (str[i] > 64 && str[i] < 91) {
+            str[i] = str[i] + 32;
+        }
+    }
+    return str;
 }
 
 void reverse(char *dest, const char *src) {
-   // TODO
+    int new_i = (int) strlen(src);
+    dest[new_i--] = 0;
+    for (int i = 0; src[i] != 0; i++) {
+        dest[new_i--] = src[i];
+    }
 }
 
 char *trim(const char *str) {
-    // TODO
-    return -1;
+    int spaces_before = 0;
+    int spaces_after = 0;
+    for (int i = 0; str[i] == ' '; i++) {
+        spaces_before++;
+    }
+    for (int i = (int) strlen(str) - 1; str[i] == ' '; i--) {
+        spaces_after++;
+    }
+    char *new = malloc(strlen(str) - (spaces_after + spaces_before));
+    for (int i = spaces_before; i < strlen(str) - spaces_after; i++) {
+        new[i - spaces_before] = str[i];
+    }
+    return new;
 }
