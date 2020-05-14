@@ -1,0 +1,121 @@
+*** Exercises Week6 ***
+
+Do as many exercises as possible *BUT* you can't spend all your time here.
+Labs are mandatory and need time. Decide when to switch to lab3 .
+Use leftover exercises as recap for the exam.
+
+*** Exercises will prepare for exam ***
+
+Exercises 5 and 6 are harder. Try them if you aim at higher grades.
+NOTE: File handling will not show up on exam.
+
+A note on debugging arrays (strings) in functions
+---------------------------------------
+To be able to inspect arrays in functions during debug...
+
+1.  Start debugging, enter into function
+2.  Assume parameter to functions is arr[] and size is 10.
+   - In Debugger window, right click > New Watch
+   - Type: (char (*)[10]) str
+   - Enter, enter
+3.  Click the triangles before the watch to inspect the elements
+4.  To remove watch, right click in window > Remove Watch
+
+
+Exercises
+---------
+
+1.  See ex1word_count.c. Implement a program to count how many words there are in a
+    text (string). Example:
+
+    Input a text max 19 chars (space allowed) > Hej på dej
+    There are 3 word in the text
+
+    a)  Make a basic version assuming all words are separated by exactly one space and no
+        leading or trailing spaces
+
+    b)  Make the program handle leading/trailing spaces and possibly many spaces between words.
+        Also handle the empty string!
+
+2.  See ex2str_func.c. Implement the string functions to make all tests pass.
+
+
+3.  See ex3robberlang.c. Implement a function that translates swedish into the Robber language.
+    See https://en.wikipedia.org/wiki/R%C3%B6varspr%C3%A5ket and
+    https://rolandjohansson.se/the-robber-language/.
+    Use functions from string.h as much as possible. Make all tests pass.
+
+4.  See ex4crypto directory. Implement a program to en/decrypt a test file. Exemple:
+
+    Select
+    1) Crypt
+    2) Decrypt (-1 to quit)
+    > 1
+    Input (de)cipher key (small int) > 1
+    In file name > in.txt
+    Out file name > out.txt          (inspect file out.txt in same directory as program)
+    Select
+    1) Crypt
+    2) Decrypt (-1 to quit)
+    > -1
+
+    Run the reverse to get the original text back (in another file). Work?
+
+
+5.  See ex5paren_match. Check if a string has correctly matching parentheses i.e. same
+    number of opening and closing and correct nestling.
+
+    HINT: Use a char array and an index. For opening parentheses add it to the char array
+    and increment index. For closing parentheses, check that index contains the matching open
+    parentheses. If so, decrease the index and remove it (remove the matching pair).
+    If not return false. If char array empty when all parentheses read, return true.
+
+6.  See ex6lcr.c. This is a simulation of the LCR game.
+    See: https://en.wikipedia.org/wiki/LCR_(dice_game)
+    Main task here is functional decomposition. Try yourself!  Find the higher level functions
+    you need to make it easy to get the overall flow in the program (used in main). Example:
+
+    HINT: Use string.h functions as needed.
+
+    Simulation starts
+    Olle got the result L.R
+    Olle : 1 Fia : 4 Sven : 4
+    Sven got the result ...
+    Olle : 1 Fia : 4 Sven : 4
+    Fia got the result .RL
+    Olle : 2 Fia : 2 Sven : 5
+    Olle got the result RC
+    Olle : 0 Fia : 3 Sven : 5
+    Sven got the result RC.
+    Olle : 1 Fia : 3 Sven : 3
+    Fia got the result .L.
+    Olle : 2 Fia : 2 Sven : 3
+    Olle got the result CR
+    Olle : 0 Fia : 3 Sven : 3
+    Sven got the result R.R
+    Olle : 2 Fia : 3 Sven : 1
+    Fia got the result .RL
+    Olle : 3 Fia : 1 Sven : 2
+    Olle got the result ..C
+    Olle : 2 Fia : 1 Sven : 2
+    Sven got the result LR
+    Olle : 3 Fia : 2 Sven : 0
+    Fia got the result ..
+    Olle : 3 Fia : 2 Sven : 0
+    Olle got the result .R.
+    Olle : 2 Fia : 3 Sven : 0
+    Sven got the result
+    Olle : 2 Fia : 3 Sven : 0
+    Fia got the result R..
+    Olle : 2 Fia : 2 Sven : 1
+    Olle got the result .L
+    Olle : 1 Fia : 2 Sven : 2
+    Sven got the result L.
+    Olle : 1 Fia : 3 Sven : 1
+    Fia got the result ...
+    Olle : 1 Fia : 3 Sven : 1
+    Olle got the result L
+    Olle : 0 Fia : 3 Sven : 2
+    Sven got the result CC
+    Olle : 0 Fia : 3 Sven : 0
+    Simulation ended

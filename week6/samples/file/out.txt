@@ -1,0 +1,2 @@
+Denna text skall
+finnas i filen out.txt

@@ -1,0 +1,2 @@
+Detta är infilen. Den består
+av två rader.
