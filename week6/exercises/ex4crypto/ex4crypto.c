@@ -21,10 +21,12 @@
 #include <locale.h>
 #include <string.h>
 
-#define DEBUG false
-
+#define DEBUG true
 #define MAX 20
 #define MAX_BUF 100
+
+#define SEPARATOR ",.!?;:"
+#define SPACE " \n\t\r"
 
 
 bool read_str(char str[], int max_len);
@@ -86,15 +88,60 @@ void crypt(const char *dest, const char *src, int key) {
     FILE *in = open_file(src, "r");
     FILE *out = open_file(dest, "w");
 
+    char buf[MAX_BUF];
+    int ch;
+    int i = 0;
+    while ((ch = fgetc(in)) != EOF && i < MAX_BUF) {  // Read single char at the time
+        buf[i] = (char) ch;
+        i++;
+    }
+    if (i == MAX_BUF) {
+        buf[i - 1] = '\0';
+    } else {
+        buf[i] = '\0';
+    }
+    fclose(in);
+    // Allocate the exact space needed
+    char *str = malloc((strlen(buf) + 1) * sizeof(char));
+    strcpy(str, buf);
 
-    // TODO
+    int j = 0;
+    while (str[j] != '\0') {
+        fputc((str[j++] + key), out);
+    }
 
     fclose(in);
     fclose(out);
 }
 
 void decrypt(const char *dest, const char *src, int key) {
-    // TODO
+    FILE *in = open_file(src, "r");
+    FILE *out = open_file(dest, "w");
+
+    char buf[MAX_BUF];
+    int ch;
+    int i = 0;
+    while ((ch = fgetc(in)) != EOF && i < MAX_BUF) {  // Read single char at the time
+        buf[i] = (char) ch;
+        i++;
+    }
+    if (i == MAX_BUF) {
+        buf[i - 1] = '\0';
+    } else {
+        buf[i] = '\0';
+    }
+    fclose(in);
+    // Allocate the exact space needed
+    char *str = malloc((strlen(buf) + 1) * sizeof(char));
+    strcpy(str, buf);
+
+    int j = 0;
+    while (str[j] != '\0') {
+        fputc((str[j++] - key), out);
+    }
+
+    fclose(in);
+    fclose(out);
 }
 
 FILE *open_file(const char *name, const char *mode) {
