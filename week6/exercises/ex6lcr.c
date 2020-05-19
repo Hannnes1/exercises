@@ -37,9 +37,6 @@ const char *outcomes = "...LCR";  // Possible dice outcomes
 // Roll dice according to rules for game. Get a dynamically allocated string.
 char *roll_dice(int n_chips);
 
-// Use result to remove chips from player
-void remove_chips(const char *result, player_t *player);
-
 // Index to player left of current
 int get_player_left(int current_player, int n_players);
 
@@ -60,7 +57,7 @@ void display_state(player_t players[], int n_players);
  */
 int main(void) {
 
-    srand((unsigned) time( NULL));
+    srand((unsigned) time(NULL));
 
     player_t players[] = {"Olle", 3, "Fia", 3, "Sven", 3};
     int current_player = 0;      // Index to current player
@@ -88,13 +85,18 @@ int main(void) {
 
 // --------- Function definitions ---------
 
-void distribute_chips(const char *result, player_t players[],
-                      int n_players, int current_player) {
-    // TODO
-}
-
-void remove_chips(const char *result, player_t *player) {
-   // TODO
+void distribute_chips(const char *result, player_t players[], int n_players, int current_player) {
+    if (strchr(result, 'L')) {
+        players[current_player].n_chips--;
+        players[get_player_left(current_player, n_players)].n_chips++;
+    }
+    if (strchr(result, 'C')) {
+        players[current_player].n_chips--;
+    }
+    if (strchr(result, 'R')) {
+        players[current_player].n_chips--;
+        players[get_player_right(current_player, n_players)].n_chips++;
+    }
 }
 
 int get_player_left(int current_player, int n_players) {
@@ -106,8 +108,24 @@ int get_player_right(int current_player, int n_players) {
 }
 
 char *roll_dice(int n_chips) {
-     // TODO
-    return NULL;
+    char tmp[6];
+    strcpy(tmp, outcomes);
+    for (int i = 0; i < 5; i++) {
+        int index = rand() % (6 - i) + i;
+        char num = tmp[index];
+        tmp[index] = tmp[i];
+        tmp[i] = num;
+    }
+    if (n_chips > 3) {
+        n_chips = 3; //To limit result length to 3 (See rules).
+    }
+    char *result = malloc(n_chips * sizeof(char));
+    result[n_chips--] = 0; //End of string
+    while (n_chips >= 0) {
+        result[n_chips] = tmp[n_chips];
+        n_chips--;
+    }
+    return result;
 }
 
 bool done(player_t players[], int n_players) {
